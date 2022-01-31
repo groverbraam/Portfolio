@@ -33,22 +33,31 @@
             <li class="contact"><a href="contact.html">Contact</a></li>
         </nav>
       </div>
-    </div>
+
+      <div id="modal-container">
+            <div id='alert'>
+              <p>Thanks for your message! I’ll respond shortly.</p>
+              <div id="modal-footer">
+                <button id="close" href="#">Close</button>
+              </div>
+            </div>
+      </div>
 
 <!-- gf helped guide me through this one  -->
-    <div class="contact-container">
+      <div class="contact-container">
 
-        <label>First Name</label>
-        <input type="text" id="firstName" placeholder="Example: Danielle">
+          <label>First Name</label>
+          <input type="text" placeholder="Example: Danielle">
 
-        <label>Last Name</label>
-        <input type="text" id="lastName" placeholder="Example: Garcia">
+          <label>Last Name</label>
+          <input type="text" placeholder="Example: Garcia">
 
-        <label>Message</label>
-        <input id="message" placeholder="Hello..." style="height:200px"></input>
+          <label>Message</label>
+          <input id="message" placeholder="Hello..." style="height:200px"></input>
 
-        <input type="submit" value="Submit">
+          <input type="submit" id="submit" value="Submit">
 
+      </div>
     </div>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
