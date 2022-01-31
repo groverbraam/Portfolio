@@ -300,16 +300,16 @@ input {
 }
 
 .carousel-images {
-	width: 50vw ;
- 	height: 60vh;
+	width: 30vw ;
+ 	height: 40vh;
 	background: var(--darkBlue);
 	padding: 10px;
 	border-radius: 10px;
 }
 
 .carousel-images img {
-	width: 50vw ;
- 	height: 60vh;
+	width: 30vw ;
+ 	height: 40vh;
 	border-radius: 10px;
 	display: none;
 }
@@ -325,7 +325,7 @@ input {
 .project-info-container {
 	font-family: Zen Kurenaido;
 	width: 70%;
-	height: 250px;
+	height: 70%;
 	margin-left: auto;
 	margin-right: auto;
 	box-shadow:
@@ -335,37 +335,48 @@ input {
              0 0  0 2px rgb(255,255,255),
 		/* border effect shadow */
              0.3em 0.3em 1em rgba(0,0,0,0.3);
-	line-height: 200%;
 }
 
 #project-info {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	padding-top: 5%;
 }
 
 #modal-container {
 	display: flex;
 	justify-content: center;
+	margin-bottom: : 20px;
+
 }
 
 #alert {
 	text-align: center;
 	background-color: var(--blue);
-	height: 150px;
-	width: 350px;
+	height: 10vh;
+	width: 30vw;
 	border-radius: 2px;
 	box-shadow:
-	/* inset shadow */
 	 inset 0 -3em 3em rgba(0,0,0,0.1),
-	/* regular drop shadow */
 	 0 0  0 2px rgb(255,255,255),
-	/* border effect shadow */
 	 0.3em 0.3em 1em rgba(0,0,0,0.3);
 	z-index: 1;
 	overflow: auto;
 	display: none;
+}
+
+#close-container {
+  position: relative;
+}
+
+#close {
+	display: flex;
+
+}
+
+#alert-text {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @media (max-width: 640px) {

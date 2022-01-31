@@ -40,7 +40,6 @@ $(() => {
 
   const openModal = () => {
     $alert.css('display', 'flex')
-    // $alert.css('display', 'flex')
   }
 
   const closeModal = () => {
